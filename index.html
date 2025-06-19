@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lê Nguyễn – English Ace</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Lê Nguyễn</h1>
+    <p>The English Ace – Quiet but Brilliant</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-button active" onclick="showTab('intro')">Introduction</button>
+    <button class="tab-button" onclick="showTab('study')">Academic Strength</button>
+    <button class="tab-button" onclick="showTab('message')">Tribute</button>
+  </div>
+
+  <div id="intro" class="content active">
+    <img src="le-nguyen.jpg" alt="Photo of Le Nguyen" class="profile-img" />
+    <div class="card">
+      <h2>Meet Lê Nguyễn</h2>
+      <p><strong>Lê Nguyễn</strong> is one of the most impressive students in our English class. With a calm and humble demeanor, he sets an outstanding example of focus, intelligence, and responsibility.</p>
+      <p>He doesn't talk much, but when he does, it's always insightful and to the point. His quiet nature hides a sharp mind, and his classmates and teachers alike respect him deeply.</p>
+    </div>
+  </div>
+
+  <div id="study" class="content">
+    <img src="le-nguyen.jpg" alt="Le Nguyen studying" class="profile-img" />
+    <div class="card">
+      <h2>Academic Excellence</h2>
+      <p>Among all students at the English center, <strong>Lê Nguyễn consistently ranks #1</strong> in class performance.</p>
+      <ul>
+        <li>✅ Always completes homework fully and on time.</li>
+        <li>✅ Top marks in vocabulary, grammar, and reading comprehension.</li>
+        <li>✅ Participates actively in class activities with thoughtful responses.</li>
+        <li>✅ Fluent pronunciation and natural English expressions.</li>
+      </ul>
+      <p>He's the kind of student every teacher wishes for – diligent, consistent, and naturally gifted in languages.</p>
+    </div>
+  </div>
+
+  <div id="message" class="content">
+    <img src="le-nguyen.jpg" alt="Le Nguyen smiling" class="profile-img" />
+    <div class="card">
+      <h2>A Tribute to Lê Nguyễn</h2>
+      <p>👏 Lê Nguyễn, you inspire not by loud words but by silent excellence.</p>
+      <p>Your steady progress, brilliant mind, and responsibility set the bar high for everyone in class. We are proud to learn alongside you.</p>
+      <p><strong>Keep shining, quietly but brightly!</strong> ✨</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Lê Nguyễn – Learning with grace and brilliance.
+  </footer>
+
+  <script>
+    function showTab(id) {
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.content').forEach(div => div.classList.remove('active'));
+      document.querySelector('.tab-button[onclick*="' + id + '"]').classList.add('active');
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
