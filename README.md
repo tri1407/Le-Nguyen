@@ -36,10 +36,12 @@ The website is structured into 3 main sections:
 
 ~~~bash
 le-nguyen/
-├── index.html         # Main webpage
-├── style.css          # Styling rules
-├── le-nguyen.jpg      # Profile photo of Lê Nguyễn
-└── README.md          # Project description
+├── index.html                   # Main webpage
+├── style.css                    # Styling rules
+├── le-nguyen.jpg                # Profile photo of Lê Nguyễn
+├── le-nguyen-trashtalk.jpg      # Messages of Lê Nguyễn
+├── le-nguyen-chat.jpg           # Messages of Lê Nguyễn
+└── README.md                    # Project description
 ~~~
 
 ## ▶️ Visit the Website
