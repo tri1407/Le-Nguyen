@@ -4,20 +4,17 @@ body {
   background: #fffaf5;
   color: #333;
 }
-
 header {
-  background-color: #f77f00; /* Cam tươi */
+  background-color: #f77f00;
   color: white;
   padding: 25px;
   text-align: center;
 }
-
 .tabs {
   display: flex;
   justify-content: center;
-  background-color: #f0ebe4; /* Xám kem nhạt */
+  background-color: #f0ebe4;
 }
-
 .tab-button {
   padding: 15px 25px;
   cursor: pointer;
@@ -26,23 +23,19 @@ header {
   background-color: #f0ebe4;
   transition: background 0.3s;
 }
-
 .tab-button.active {
   background-color: #f77f00;
   color: white;
 }
-
 .content {
   display: none;
   padding: 30px;
   max-width: 900px;
   margin: auto;
 }
-
 .content.active {
   display: block;
 }
-
 .profile-img {
   display: block;
   max-width: 280px;
@@ -50,7 +43,6 @@ header {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
-
 .card {
   background: white;
   padding: 25px;
@@ -58,7 +50,6 @@ header {
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   line-height: 1.6;
 }
-
 footer {
   text-align: center;
   padding: 15px;
