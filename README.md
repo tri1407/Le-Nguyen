@@ -16,7 +16,7 @@ This project presents a modern personal profile webpage that reflects:
 - Pure HTML5 + CSS3
 - Responsive layout for both desktop and mobile
 - Simple JavaScript to control tab-based navigation
-- Image used: `le-nguyen.jpg`
+- Image used: `le-nguyen.jpg`, `le-nguyen-trashtalk.jpg`, `le-nguyen-chat.jpg`
 
 ## 🧠 Project Goals
 
